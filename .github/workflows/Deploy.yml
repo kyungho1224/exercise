@@ -3,7 +3,7 @@ name: DockerCompose With Gradle
 on:
   push:
     branches:
-      - main
+      - master
 
 permissions: write-all
 
