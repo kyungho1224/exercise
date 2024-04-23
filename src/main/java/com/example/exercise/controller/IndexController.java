@@ -21,7 +21,7 @@ public class IndexController {
 
     private final IndexService indexService;
 
-    @GetMapping("/index")
+    @GetMapping("/health")
     public ResponseEntity<String> index() {
         String format = String.format("info : %s, version : %s", serverInfo, serverVersion);
         return ResponseEntity.ok().body(format);
