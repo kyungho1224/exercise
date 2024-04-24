@@ -58,5 +58,5 @@ jobs:
 #          envs: APP, COMPOSE
           script_stop: true
           script: |
-            sudo chmod +x /home/ubuntu/compose/Deploy.sh
-            sudo sh /home/ubuntu/compose/Deploy.sh
+            sudo chmod +x /home/ubuntu/compose/deploy.sh
+            sudo sh /home/ubuntu/compose/deploy.sh
